@@ -1,0 +1,87 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  margin-left: 100px;
+  top: 10px;
+  text-stroke: 1px rgba(255,255,255,0.1);
+  color: #555;
+  width: 70%;
+}
+a {
+  color: #00b7ff;
+}
+h1,
+h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #343434;
+}
+h1 {
+  text-shadow: 1px 2px 2px #ddd;
+  font-size: 60px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+#addEmployee {
+  text-align: left;
+  padding: 10px;
+}
+#employees {
+  text-align: left;
+  margin-left: auto;
+  margin-bottom: 100px;
+  width: 100%;
+  border: 1px solid #000;
+}
+#employees .employee {
+  margin: 2px;
+}
+#employees .employee .created_at {
+  display: block;
+}
+#employees .employee .title {
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  background-color: #eee;
+}
+#employees .employee .title .form {
+  float: right;
+  display: block;
+}
+#employees .employee .title .form {
+  float: right;
+}
+#employees .employee .name {
+  background-color: #ffa;
+}
+.newemployee {
+  border: 3px solid #000;
+  border-color: #000;
+  border-style: dotted;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px;
+  float: left;
+}
+input[type =text] {
+  width: 200px;
+  margin-left: 16px;
+  float: left;
+}
+input[type =button],
+input[type =submit] {
+  clear: both;
+  float: right;
+  display: block;
+}
+.label {
+  width: 150px;
+  text-align: right !important;
+  display: block;
+  float: left;
+}
