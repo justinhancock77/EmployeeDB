@@ -7,7 +7,7 @@ block content
     #employees
         - each employee in employees
           div.employee            
-            div.title= employee.title + ' ' + employee.name + ' ' + employee.created_at               
+            div.title= employee.title + ' ' + employee.name + ' ' + employee.created_at.toDateString()               
                 form( method="post", action="/employee/:id/delete" class="form") 
                         input(name="_id", type="hidden", value=employee._id.toHexString()) 
                         input(id="delete", value="Delete", type="submit")                         
